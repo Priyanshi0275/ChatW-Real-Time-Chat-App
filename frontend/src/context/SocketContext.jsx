@@ -23,7 +23,7 @@ export const SocketProvider = ({ children }) => {
       return;
     }
 
-    const socket = io("http://localhost:5000", {
+    const socket = io("https://chatw-real-time-chat-app-backend.onrender.com", {
       auth: { token },
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
