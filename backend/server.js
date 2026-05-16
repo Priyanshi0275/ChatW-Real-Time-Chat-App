@@ -20,7 +20,7 @@ initSocket(server);
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://chat-w-real-time-chat-app.vercel.app/",
   credentials: true,
 }));
 app.use(express.json());
